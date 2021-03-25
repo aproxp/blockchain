@@ -14,7 +14,6 @@ class Block {
 public:
     string sPrevHash;
 
-    // ampersand syntax here
     Block(uint32_t nIndexIn, const string& sDataIn);
 
     string GetHash();
